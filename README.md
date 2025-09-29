@@ -65,7 +65,7 @@ git clone https://github.com/YOUR-USERNAME/rainfall-predictor.git
 cd rainfall-predictor
 
 2️⃣ Install dependencies
-pip install -r requirements.txt
+you are pretty much good with google colab beside that just install the streamlit on yuour pc as pickle is pre installed
 
 3️⃣ Run the Streamlit app
 streamlit run app.py
@@ -77,7 +77,7 @@ The app will launch in your browser at http://localhost:8501.
 rainfall-predictor/
 │── app.py                  # Streamlit frontend
 │── training.ipynb          # Colab notebook (model training + tuning)
-│── requirements.txt        # Dependencies
+ 
 │── README.md               # Documentation
 │── .gitignore              # Ignore model files, cache, checkpoints
 
@@ -90,17 +90,3 @@ the dataset was a bit small so the accuracy was not great i tried diffrent model
 Deploy to Streamlit Cloud so others can use the app online.
 
 
-
-
-
-👉 This README shows:
-
-Motivation behind the project.
-
-Exact workflow.
-
-Results and what they mean.
-
-Future improvements.
-
-How someone can run your project.
